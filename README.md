@@ -95,7 +95,7 @@ python app.py
 
 2. A message will pop-up in console or terminal as to enter your message. And you can run it until Gemini API key doesn't exhausts. 
 
-Note - To track API usage, visit <a href="logs"> logs folder</a>, which holds the logs of agents and LLM usage.
+Note - To track API usage, visit <a href="logs"> logs folder</a>, which holds the logs of agents and LLM usage
 
 
 
