@@ -33,7 +33,7 @@ C:\Users\<username>\pyver\py3121\python -m venv travplan
 
 3. Activate the virtual environment using -
 ```bash
-travplan/Scripts/activate
+travplan\Scripts\activate
 ```
 
 4. Install python packages using - 
