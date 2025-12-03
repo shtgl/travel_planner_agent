@@ -15,7 +15,15 @@ The goal is to make trip planning straightforward by letting the user guide the 
 </h3>
 
 *Note - The app is written using Python virtual environment version **3.12.10** and supports the latest Python versions. However, lower Python versions may offer more stability compared to the latest ones. Below setup will focus Windows system. And commands to setup may vary for macOS or Linux.*
-1. Create a python virtual environment using -
+1. Move to folder (CLI commands)
+```bash
+# If you downloaded the file, just navigate to folder
+# Then press Shift (in Windows) + Left Mouse click
+# Choose Open PowerShell window here option and move on to creating virtual environment
+cd travel_planner_agent
+```
+
+2. Create a python virtual environment using -
 ```bash
 # Path to installation of particular version of python  may vary
 # I have installed more than one version of python in pyver directory
@@ -23,12 +31,12 @@ The goal is to make trip planning straightforward by letting the user guide the 
 C:\Users\<username>\pyver\py3121\python -m venv travplan
 ```
 
-2. Activate the virtual environment using -
+3. Activate the virtual environment using -
 ```bash
 travplan/Scripts/activate
 ```
 
-3. Install python packages using - 
+4. Install python packages using - 
 ```bash
 pip install -r requirements.txt
 ```
